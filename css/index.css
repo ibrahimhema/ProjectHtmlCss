@@ -1,0 +1,293 @@
+body{
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Courier;
+    background-image: url("../resource/photo-1567393594901-e66aa5e2ec56.jpg");
+margin: 0;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+background-size: cover;
+}
+.container{
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+
+
+}
+.header{
+
+padding-right: 50px;;
+    padding-left: 50px;
+    background-color: #9A9A9A;
+    opacity: 80%;
+    color: white;
+}
+.navbar{
+    padding: 10px;
+
+
+}
+.navbar h1{
+
+    width: 20%;
+text-align: center;
+    line-height: 10px;
+    float: left;
+}
+.navbar .links{
+float: right;
+    width: 50%;
+
+
+}
+.navbar .links ul{
+    list-style-type: none;
+    padding: 12px;
+    text-align: center;
+}
+.navbar .links ul li{
+    float: left;
+    margin-left:20px ;
+    line-height: 10px;
+
+}
+.navbar .links ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.navbar .links ul li a:hover{
+    background-color: darkgreen;
+    border-radius: 5px;
+}
+.crsour{
+
+  height: 350px;
+    padding-top: 50px;
+}
+.crsour .left{
+    float: left;
+    width: 60%;
+
+    padding-top: 50px;
+
+}
+.crsour .left p{
+    text-align: left;
+    margin-left: 150px;
+    padding-right: 100px;
+}
+.crsour .left a{
+    text-align: center;
+    display: block;
+    width: 100px;
+   padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    margin-left: 150px;
+    background-color: darkgreen;
+}
+.crsour .right{
+    float: right;
+    width:40%;
+}
+.crsour .right img{
+    width:60%;
+    height: 300px;
+    border: solid 15px grey;
+    border-radius: 50%;
+}
+.Service-title{
+
+
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.Service-title >div{
+    width: 15%;
+    padding: 40px;
+background-color: white;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.Service-title >div:hover{
+   background-color: darkgreen;
+    color: white;
+}
+.Service-title img{
+    width: 80%;
+    height: 200px;
+}
+.Service-title >div>h1{
+    font-weight: bold;
+}
+.latest-work{
+    clear: both;
+    height: 60px;
+    margin-top: 34px;
+    text-align: center;
+    position: relative;
+}
+.latest-work hr{
+    border: solid 2px black;
+    position: absolute;
+    width: 100%;
+    top: 24px;
+}
+.latest-work >span{
+    display: inline-block;
+   position: absolute;
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-size: 25px;
+    width: 170px;
+    border-radius: 10px;
+    top: 0;
+
+}
+.last-div{
+
+    margin-bottom: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.last-div >div{
+    width: 20%;
+
+    margin-top: 30px;
+    position: relative;
+}
+.last-div >div{
+    width: 20%;
+    border: solid 3px black;
+    margin-top: 30px;
+    position: relative;
+}
+.last-div >div:hover{
+
+    border: solid 3px white;
+
+}
+.last-div >div img{
+    width: 100%;
+    height: 100%;
+}
+.transation-div{
+   position: absolute;
+    background-color: black;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+   font-size: 22px;
+    opacity: 60%;
+}
+.latest_rental{
+    height: 350px;
+    padding-bottom: 15px;
+   margin-top: 70px;
+    background-color:darkgray;
+    position: relative;
+    margin-bottom: 50px;
+
+}
+.latest_rental .leftdiv{
+
+float: left;
+    width: 50%;
+}
+.latest_rental .leftdiv >div{
+    position: relative;
+    top: -44px;
+}
+.latest_rental .rightdiv{
+    float: left;
+color: white;
+    font-weight: bold;
+    width: 50%;
+
+}
+.latest_rental .rightdiv p{
+  width: 50%;
+
+}
+footer{
+
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    background-color:darkgray;
+
+}
+footer >div{
+    width: 25%;
+    padding-right: 10px;
+    padding-left: 8px;
+
+
+}
+footer >div >h2{
+
+ margin-bottom: 20px;
+
+}
+footer >div >p{
+
+ font-size: 15px;
+
+}
+footer >div >p>a{
+
+   text-decoration: none;
+    color: darkgreen;
+
+}
+input[type="text"]{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color:#23272b;
+    color: white;
+    height: 40px;
+}
+textarea{
+    width: 100%;
+    background-color: #23272b;
+    color: white;
+    border-radius: 10px;
+    height: 60px;
+}
+button{
+    background-color: darkgreen;
+    width: 35%;
+    height: 40px;
+    margin-top: 12px;
+    line-height: 40px;
+    color: white;
+    border-radius: 10px;
+}
+
+footer ul{
+    list-style-type:none;
+}
+footer ul li a{
+   text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+}
+.copy{
+    text-align: center;
+    padding-top:15px ;
+    padding-bottom: 15px;
+    background-color:darkgray;
+}
